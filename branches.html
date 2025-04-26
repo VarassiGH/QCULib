@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Branches - QCULib</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="branches-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="branches.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="QCULib Logo">
+                <h1>QCULib</h1>
+            </a>
+            <div class="search-bar">
+                <form id="search-form" novalidate>
+                    <input type="text"
+                           id="header-search"
+                           placeholder="Search books, authors, subjects..."
+                           required
+                           minlength="3">
+                    <button id="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <!-- Validation Popup -->
+            <div id="validation-popup" class="validation-popup">
+                <div class="popup-content">
+                    <span class="popup-message"></span>
+                    <button class="popup-close">&times;</button>
+                </div>
+            </div>
+            <button id="login-button" onclick="redirectToLogin()"><i class="fas fa-user"></i> Login</button>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="branches.html" class="active">Branches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <button id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="branches-hero">
+            <div class="container">
+                <h1>Our Locations</h1>
+                <p>Discover the QCU Library's branches around the city and find your perfect study space</p>
+            </div>
+        </section>
+
+        <!-- Branch Finder -->
+        <section class="branch-finder">
+            <div class="container">
+                <div class="filter-container">
+                    <div class="search-filter">
+                        <input type="text" id="branch-search" placeholder="Search by branch name...">
+                    </div>
+                    <div class="filter-options">
+                        <select id="filter-amenities">
+                            <option value="">All Amenities</option>
+                            <option value="study-rooms">Study Rooms</option>
+                            <option value="computers">Computer Access</option>
+                            <option value="quiet-zones">Quiet Zones</option>
+                        </select>
+                        <button id="filter-btn">Filter</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Branches Grid Section -->
+        <section class="branches-grid">
+            <div class="container">
+                <div class="branch-card" data-amenities="study-rooms computers quiet-zones">
+                    <div class="branch-image">
+                        <img src="images/bartolome.jpeg" alt="San Bartolome Campus">
+                        <div class="branch-status open">Open Now</div>
+                    </div>
+                    <div class="branch-content">
+                        <h3>San Bartolome Campus</h3>
+                        <div class="branch-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Main Campus, QCU San Bartolome</p>
+                        </div>
+                        <p class="branch-description">Located at the main branch, offering a vast collection of academic resources and research materials.</p>
+                        <div class="branch-features">
+                            <span class="feature"><i class="fas fa-book"></i> 25,000+ Books</span>
+                            <span class="feature"><i class="fas fa-laptop"></i> Computer Lab</span>
+                            <span class="feature"><i class="fas fa-users"></i> Study Rooms</span>
+                        </div>
+                        <div class="branch-hours">
+                            <h4><i class="far fa-clock"></i> Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                            <p>Saturday: 9:00 AM - 5:00 PM</p>
+                        </div>
+                        <button class="view-details-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="branch-card" data-amenities="computers quiet-zones">
+                    <div class="branch-image">
+                        <img src="images/sanfrancisco.jpeg" alt="San Francisco Campus">
+                        <div class="branch-status open">Open Now</div>
+                    </div>
+                    <div class="branch-content">
+                        <h3>San Francisco Campus</h3>
+                        <div class="branch-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Near SM North EDSA, QCU San Francisco</p>
+                        </div>
+                        <p class="branch-description">Situated near SM North EDSA, this branch caters to students in science and technology courses.</p>
+                        <div class="branch-features">
+                            <span class="feature"><i class="fas fa-book"></i> 15,000+ Books</span>
+                            <span class="feature"><i class="fas fa-laptop"></i> Tech Hub</span>
+                            <span class="feature"><i class="fas fa-wifi"></i> High-Speed WiFi</span>
+                        </div>
+                        <div class="branch-hours">
+                            <h4><i class="far fa-clock"></i> Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                            <p>Saturday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                        <button class="view-details-btn">View Details</button>
+                    </div>
+                </div>
+
+                <div class="branch-card" data-amenities="study-rooms quiet-zones">
+                    <div class="branch-image">
+                        <img src="images/batasan.png" alt="Batasan Campus">
+                        <div class="branch-status open">Open Now</div>
+                    </div>
+                    <div class="branch-content">
+                        <h3>Batasan Campus</h3>
+                        <div class="branch-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>QCU Batasan Hills</p>
+                        </div>
+                        <p class="branch-description">Located in QCU Batasan, this branch offers specialized resources for education and public administration students.</p>
+                        <div class="branch-features">
+                            <span class="feature"><i class="fas fa-book"></i> 18,000+ Books</span>
+                            <span class="feature"><i class="fas fa-chalkboard"></i> Learning Commons</span>
+                            <span class="feature"><i class="fas fa-coffee"></i> Study Café</span>
+                        </div>
+                        <div class="branch-hours">
+                            <h4><i class="far fa-clock"></i> Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                            <p>Saturday: 9:00 AM - 3:00 PM</p>
+                        </div>
+                        <button class="view-details-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Map Section -->
+        <section class="branch-map-section">
+            <div class="container">
+                <h2>Find Us on the Map</h2>
+                <div class="map-container">
+                    <div id="branch-map">
+                        <!-- Map will be loaded by JavaScript -->
+                        <img src="images/map.png" alt="QCU Library Branches Map" class="placeholder-map">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-section">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="about.html">About QCULib</a></li>
+                        <li><a href="about.html#mission">Mission & Vision</a></li>
+                        <li><a href="about.html#contact">Contact Us</a></li>
+                        <li><a href="policy.html">Library Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="services.html#book-lending">Book Lending</a></li>
+                        <li><a href="services.html#study-rooms">Study Rooms</a></li>
+                        <li><a href="services.html#equipment-borrowing">Equipment</a></li>
+                        <li><a href="services.html#digital-resources">Digital Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="help.html">Help Guides</a></li>
+                        <li><a href="support.html">Technical Support</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>CONNECT</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Library Updates</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Quezon City University Library Management System</p>
+                <p>© 2025 QCULib. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

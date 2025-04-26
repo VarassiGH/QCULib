@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - QCULib</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signup-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="signup.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="QCULib Logo">
+                <h1>QCULib</h1>
+            </a>
+            <!-- Change the button back to "Login" -->
+            <button id="login-button" onclick="redirectToLogin()"><i class="fas fa-user"></i> Login</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="signup-container">
+            <div class="signup-header">
+                <h2>Create Your QCULib Account</h2>
+                <p>Join QCULib to access library resources and services.</p>
+            </div>
+
+            <form class="signup-form" id="signup-form">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" placeholder="Enter your full name (ex. John S. Doe)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email (ex. johndoe@email.com)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="student-id">Student ID</label>
+                    <input type="text" id="student-id" placeholder="Enter your student ID (ex. xx-xxxx)" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Create a password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <div class="already-registered">
+                <p>Already have an account? <button onclick="redirectToLogin()">Login</button></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-section">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="about.html">About QCULib</a></li>
+                        <li><a href="about.html#mission">Mission & Vision</a></li>
+                        <li><a href="about.html#contact">Contact Us</a></li>
+                        <li><a href="policy.html">Library Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="services.html#book-lending">Book Lending</a></li>
+                        <li><a href="services.html#study-rooms">Study Rooms</a></li>
+                        <li><a href="services.html#equipment-borrowing">Equipment</a></li>
+                        <li><a href="services.html#digital-resources">Digital Resources</a></li>
+                        <li><a href="services.html#research-assistance">Research Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="help.html">Help Guides</a></li>
+                        <li><a href="support.html">Technical Support</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>CONNECT</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Library Updates</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Quezon City University Library Management System</p>
+                <p>© 2025 QCULib. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

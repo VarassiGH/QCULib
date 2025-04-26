@@ -1,0 +1,14 @@
+{
+  "name": "qculib",
+  "version": "1.0.0",
+  "description": "A simple Node.js server",
+  "main": "QCULib.js",
+  "scripts": {
+    "start": "node QCULib.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.25.1"
+  }
+}

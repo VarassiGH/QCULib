@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Services - QCULib</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="services-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="services.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="QCULib Logo">
+                <h1>QCULib</h1>
+            </a>
+            <div class="search-bar">
+                <form id="search-form" novalidate>
+                    <input type="text"
+                           id="header-search"
+                           placeholder="Search books, authors, subjects..."
+                           required
+                           minlength="3">
+                    <button id="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <!-- Validation Popup -->
+            <div id="validation-popup" class="validation-popup">
+                <div class="popup-content">
+                    <span class="popup-message"></span>
+                    <button class="popup-close">&times;</button>
+                </div>
+            </div>
+            <button id="login-button" onclick="redirectToLogin()"><i class="fas fa-user"></i> Login</button>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <button id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="services-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Empower Your Learning Journey</h1>
+                    <p>Discover our comprehensive library services designed to enhance your academic experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview -->
+        <section id="services-overview" class="services-overview">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Everything you need to succeed in your academic journey</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <i class="fas fa-book service-icon"></i>
+                        </div>
+                        <h3>Book Lending</h3>
+                        <p>Access our extensive collection of academic resources, textbooks, and literature.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Borrow up to 5 books</li>
+                            <li><i class="fas fa-check"></i> 14-day loan period</li>
+                            <li><i class="fas fa-check"></i> Online renewal option</li>
+                        </ul>
+                        <a href="#book-lending" class="service-link">Learn More</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <i class="fas fa-door-open service-icon"></i>
+                        </div>
+                        <h3>Study Rooms</h3>
+                        <p>Reserve quiet, comfortable spaces for individual or group study sessions.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Private & group rooms</li>
+                            <li><i class="fas fa-check"></i> Online reservation</li>
+                            <li><i class="fas fa-check"></i> AV equipment available</li>
+                        </ul>
+                        <a href="#study-rooms" class="service-link">Reserve Now</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <i class="fas fa-laptop service-icon"></i>
+                        </div>
+                        <h3>Equipment Borrowing</h3>
+                        <p>Borrow technology tools and equipment to support your academic projects.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Laptops & tablets</li>
+                            <li><i class="fas fa-check"></i> Cameras & recording equipment</li>
+                            <li><i class="fas fa-check"></i> Presentation tools</li>
+                        </ul>
+                        <a href="#equipment-borrowing" class="service-link">Check Availability</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How To Access Section -->
+        <section class="how-to-access">
+            <div class="container">
+                <div class="section-header">
+                    <h2>How to Access Our Services</h2>
+                    <p>Follow these simple steps to make the most of our library resources</p>
+                </div>
+
+                <div class="steps-container">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Register for Library Access</h3>
+                            <p>Visit the front desk with your student ID to activate your library account. This one-time registration enables access to all our services.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Browse & Select Resources</h3>
+                            <p>Explore our physical collection in the library or search our digital catalog online to find the resources you need.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Reserve or Borrow</h3>
+                            <p>Use our online reservation system or visit the service desk to borrow books, equipment, or reserve study spaces.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Enjoy & Return</h3>
+                            <p>Make use of our resources and return them by the due date to avoid late fees. Online renewals are available for most items.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-container">
+                    <a href="registration.html" class="cta-button">Register Now</a>
+                    <a href="help.html" class="cta-button secondary">Need Help?</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Users Say</h2>
+                    <p>Experiences from students and faculty who use our services</p>
+                </div>
+
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">The study rooms have been essential for my group projects. The reservation system is easy to use, and the spaces are always clean and well-equipped.</p>
+                        <div class="testimonial-author">
+                            <img src="images/student1.jpg" alt="Student" class="author-img">
+                            <div class="author-info">
+                                <h4>Maria Santos</h4>
+                                <p>Engineering Student</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">The research assistance service helped me navigate complex academic databases for my thesis. The librarians are knowledgeable and always willing to help.</p>
+                        <div class="testimonial-author">
+                            <img src="images/student2.jpg" alt="Student" class="author-img">
+                            <div class="author-info">
+                                <h4>James Rivera</h4>
+                                <p>Graduate Student</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">Being able to borrow laptops and recording equipment has been a game-changer for my multimedia projects. QCULib truly understands student needs.</p>
+                        <div class="testimonial-author">
+                            <img src="images/student3.jpg" alt="Student" class="author-img">
+                            <div class="author-info">
+                                <h4>Ana Reyes</h4>
+                                <p>Communications Major</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-section">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="about.html">About QCULib</a></li>
+                        <li><a href="about.html#mission">Mission & Vision</a></li>
+                        <li><a href="about.html#contact">Contact Us</a></li>
+                        <li><a href="policy.html">Library Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="services.html#book-lending">Book Lending</a></li>
+                        <li><a href="services.html#study-rooms">Study Rooms</a></li>
+                        <li><a href="services.html#equipment-borrowing">Equipment</a></li>
+                        <li><a href="services.html#digital-resources">Digital Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="help.html">Help Guides</a></li>
+                        <li><a href="support.html">Technical Support</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>CONNECT</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Library Updates</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Quezon City University Library Management System</p>
+                <p>© 2025 QCULib. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

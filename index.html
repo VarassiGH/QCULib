@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCULib - Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="QCULib Logo">
+                <h1>QCULib</h1>
+            </a>
+            <div class="search-bar">
+                <form id="search-form" novalidate>
+                    <input type="text"
+                           id="header-search"
+                           placeholder="Search books, authors, subjects..."
+                           required
+                           minlength="3">
+                    <button id="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <!-- Validation Popup -->
+            <div id="validation-popup" class="validation-popup">
+                <div class="popup-content">
+                    <span class="popup-message"></span>
+                    <button class="popup-close">&times;</button>
+                </div>
+            </div>
+            <button id="login-button" onclick="redirectToLogin()"><i class="fas fa-user"></i> Login</button>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <button id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-overlay">
+                    <div class="hero-content">
+                        <h2>Welcome to QCULib</h2>
+                        <p>Your gateway to knowledge, innovation, and academic excellence</p>
+                        <button id="explore-btn"><i class="fas fa-book"></i> Explore Catalog</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Announcements Section -->
+        <section id="announcements">
+            <div class="container">
+                <h2 class="section-title">News & Announcements</h2>
+                <div class="announcements-container">
+                    <div class="announcement-card">
+                        <div class="announcement-content">
+                            <span class="announcement-date">April 22, 2025</span>
+                            <h3>Extended Library Hours</h3>
+                            <p>The main library will extend its operating hours until 10 PM during finals week (May 1-15).</p>
+                        </div>
+                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="announcement-card">
+                        <div class="announcement-content">
+                            <span class="announcement-date">April 15, 2025</span>
+                            <h3>New Digital Resources</h3>
+                            <p>Access to JSTOR Arts & Sciences XII Collection is now available to all students and faculty.</p>
+                        </div>
+                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="announcement-card">
+                        <div class="announcement-content">
+                            <span class="announcement-date">April 8, 2025</span>
+                            <h3>Library Workshop Series</h3>
+                            <p>Join our upcoming workshop on research methodologies and citation techniques.</p>
+                        </div>
+                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Library Branches Section -->
+        <section id="library-branches">
+            <div class="container">
+                <h2 class="section-title">Library Branches</h2>
+                <div class="branches-container">
+                    <div class="branch-card">
+                        <div class="branch-image">
+                            <img src="images/bartolome.jpeg" alt="San Bartolome Campus">
+                            <span class="branch-status open">Open Now</span>
+                        </div>
+                        <div class="branch-info">
+                            <h3>San Bartolome Campus</h3>
+                            <p>Located at the main branch, offering a vast collection of academic resources.</p>
+                            <div class="branch-hours">
+                                <h4><i class="far fa-clock"></i> Operating Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                                <p>Saturday: 9:00 AM - 5:00 PM</p>
+                            </div>
+                            <a href="branches.html#main" class="branch-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="branch-card">
+                        <div class="branch-image">
+                            <img src="images/sanfrancisco.jpeg" alt="San Francisco Campus">
+                            <span class="branch-status open">Open Now</span>
+                        </div>
+                        <div class="branch-info">
+                            <h3>San Francisco Campus</h3>
+                            <p>Situated near SM North EDSA, this branch caters to students in science and technology courses.</p>
+                            <div class="branch-hours">
+                                <h4><i class="far fa-clock"></i> Operating Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p>Saturday: 10:00 AM - 4:00 PM</p>
+                            </div>
+                            <a href="branches.html#science" class="branch-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="branch-card">
+                        <div class="branch-image">
+                            <img src="images/batasan.png" alt="Batasan Campus">
+                            <span class="branch-status closed">Closed</span>
+                        </div>
+                        <div class="branch-info">
+                            <h3>Batasan Campus</h3>
+                            <p>Located in QCU Batasan, this branch offers specialized resources for education and public administration students.</p>
+                            <div class="branch-hours">
+                                <h4><i class="far fa-clock"></i> Operating Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                                <p>Saturday: 9:00 AM - 3:00 PM</p>
+                            </div>
+                            <a href="branches.html#batasan" class="branch-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section id="statistics">
+            <div class="container">
+                <h2 class="section-title">Library Statistics</h2>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <h3>50,000+</h3>
+                        <p>Books Available</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10,000+</h3>
+                        <p>Registered Students</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3</h3>
+                        <p>Library Branches</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>24/7</h3>
+                        <p>Digital Access</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Books Section -->
+        <section id="featured-books">
+            <div class="container">
+                <h2 class="section-title">Featured Books</h2>
+                <div class="book-carousel">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="books-container">
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="/api/placeholder/150/200" alt="Book 1">
+                            </div>
+                            <h4>The Innovation Process</h4>
+                            <p>Dr. Maya Chen</p>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="/api/placeholder/150/200" alt="Book 2">
+                            </div>
+                            <h4>Quantum Computing</h4>
+                            <p>Prof. James Wilson</p>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="/api/placeholder/150/200" alt="Book 3">
+                            </div>
+                            <h4>Modern Literature</h4>
+                            <p>Sophia Rodriguez</p>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="/api/placeholder/150/200" alt="Book 4">
+                            </div>
+                            <h4>Environmental Ethics</h4>
+                            <p>Dr. Thomas Greene</p>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title">Library Services</h2>
+                <div class="services-container">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Book Lending</h3>
+                        <p>Borrow books from our extensive collection with your student ID.</p>
+                        <a href="services.html#borrowing" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-door-open"></i>
+                        </div>
+                        <h3>Study Rooms</h3>
+                        <p>Reserve quiet spaces for individual or group study sessions.</p>
+                        <a href="services.html#rooms" class="service-link">Reserve Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>Equipment Borrowing</h3>
+                        <p>Borrow laptops, tablets, cameras, and more for your projects.</p>
+                        <a href="services.html#equipment" class="service-link">Check Availability</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-section">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="about.html">About QCULib</a></li>
+                        <li><a href="about.html#mission">Mission & Vision</a></li>
+                        <li><a href="about.html#contact">Contact Us</a></li>
+                        <li><a href="policy.html">Library Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="services.html#book-lending">Book Lending</a></li>
+                        <li><a href="services.html#study-rooms">Study Rooms</a></li>
+                        <li><a href="services.html#equipment-borrowing">Equipment</a></li>
+                        <li><a href="services.html#digital-resources">Digital Resources</a></li>
+                        <li><a href="services.html#research-assistance">Research Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="help.html">Help Guides</a></li>
+                        <li><a href="support.html">Technical Support</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>CONNECT</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Library Updates</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Quezon City University Library Management System</p>
+                <p>© 2025 QCULib. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

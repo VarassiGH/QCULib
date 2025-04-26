@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Search - QCULib</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="catalog-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="catalog.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="QCULib Logo">
+                <h1>QCULib</h1>
+            </a>
+            <div class="search-bar">
+                <form id="search-form" novalidate>
+                    <input type="text"
+                           id="header-search"
+                           placeholder="Search books, authors, subjects..."
+                           required
+                           minlength="3">
+                    <button id="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <!-- Validation Popup -->
+            <div id="validation-popup" class="validation-popup">
+                <div class="popup-content">
+                    <span class="popup-message"></span>
+                    <button class="popup-close">&times;</button>
+                </div>
+            </div>
+            <button id="login-button" onclick="redirectToLogin()"><i class="fas fa-user"></i> Login</button>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html" class="active">Catalog</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <button id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="catalog-hero">
+            <div class="container">
+                <h1>Library Catalog</h1>
+                <p>Search our collection of resources</p>
+            </div>
+        </section>
+
+        <!-- Catalog Search Section -->
+        <section class="catalog-search-section">
+            <div class="container">
+                <div class="advanced-search">
+                    <div class="search-container">
+                        <input type="text" id="catalog-search" placeholder="Search by title, author, subject, or ISBN...">
+                        <button onclick="performCatalogSearch()"><i class="fas fa-search"></i> Search</button>
+                    </div>
+
+                    <div class="filter-container">
+                        <div class="filter-group">
+                            <label for="branch-filter">Branch:</label>
+                            <select id="branch-filter" onchange="applyFilters()">
+                                <option value="">All Branches</option>
+                                <option value="main">Main Campus Library</option>
+                                <option value="science">Science & Technology Library</option>
+                                <option value="arts">Arts & Humanities Library</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="material-filter">Material Type:</label>
+                            <select id="material-filter" onchange="applyFilters()">
+                                <option value="">All Types</option>
+                                <option value="book">Books</option>
+                                <option value="ebook">E-Books</option>
+                                <option value="journal">Journals</option>
+                                <option value="thesis">Theses</option>
+                                <option value="media">Media</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="availability-filter">Availability:</label>
+                            <select id="availability-filter" onchange="applyFilters()">
+                                <option value="">All</option>
+                                <option value="available">Available Now</option>
+                                <option value="unavailable">Unavailable</option>
+                            </select>
+                        </div>
+
+                        <button id="reset-filters" onclick="resetFilters()">Reset Filters</button>
+                    </div>
+                </div>
+
+                <div class="search-results-container">
+                    <div class="results-info">
+                        <h3>Search Results <span id="results-count">(250 items)</span></h3>
+                        <div class="sort-options">
+                            <label for="sort-by">Sort by:</label>
+                            <select id="sort-by" onchange="sortResults()">
+                                <option value="relevance">Relevance</option>
+                                <option value="title">Title (A-Z)</option>
+                                <option value="author">Author (A-Z)</option>
+                                <option value="date-new">Publication Date (Newest)</option>
+                                <option value="date-old">Publication Date (Oldest)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="results-list">
+                        <!-- Search Result Item -->
+                        <div class="result-item">
+                            <div class="item-image">
+                                <img src="/api/placeholder/100/140" alt="Book Cover">
+                            </div>
+                            <div class="item-details">
+                                <h3>Introduction to Computer Science</h3>
+                                <p class="author">By: John Smith, Maria Garcia</p>
+                                <p class="publication">Publisher: Academic Press, 2023</p>
+                                <div class="tags">
+                                    <span class="material-tag">Book</span>
+                                    <span class="branch-tag">Main Campus</span>
+                                    <span class="available-tag">Available</span>
+                                </div>
+                                <p class="summary">A comprehensive introduction to computer science fundamentals, algorithms, and programming concepts.</p>
+                                <div class="item-actions">
+                                    <a href="book-details.html?id=1" class="view-details">View Details</a>
+                                    <button class="reserve-btn">Reserve</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Search Result Items -->
+                        <!-- Repeat similar structure for other items -->
+                    </div>
+
+                    <div class="pagination">
+                        <button class="pagination-btn active">1</button>
+                        <button class="pagination-btn">2</button>
+                        <button class="pagination-btn">3</button>
+                        <button class="pagination-btn">4</button>
+                        <button class="pagination-btn">5</button>
+                        <span>...</span>
+                        <button class="pagination-btn">25</button>
+                        <button class="pagination-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-section">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="about.html">About QCULib</a></li>
+                        <li><a href="about.html#mission">Mission & Vision</a></li>
+                        <li><a href="about.html#contact">Contact Us</a></li>
+                        <li><a href="policy.html">Library Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="services.html#book-lending">Book Lending</a></li>
+                        <li><a href="services.html#study-rooms">Study Rooms</a></li>
+                        <li><a href="services.html#equipment-borrowing">Equipment</a></li>
+                        <li><a href="services.html#digital-resources">Digital Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="help.html">Help Guides</a></li>
+                        <li><a href="support.html">Technical Support</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>CONNECT</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Library Updates</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Quezon City University Library Management System</p>
+                <p>© 2025 QCULib. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

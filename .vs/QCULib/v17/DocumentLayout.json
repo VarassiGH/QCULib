@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:faq-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:services-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:signup-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:login-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:branches-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:about-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:branches.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:branches.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:catalog-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:about.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:faq.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:catalog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:faq.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:catalog.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:services.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E017B143-F6D9-4FE3-8395-7AEC7B37B260}|QCULib.njsproj|solutionrelative:login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "about-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about-styles.css",
+              "RelativeDocumentMoniker": "about-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about-styles.css",
+              "RelativeToolTip": "about-styles.css",
+              "ViewState": "AgIAADwDAAAAAAAAAAAuwGoDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T11:19:57.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "branches-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches-styles.css",
+              "RelativeDocumentMoniker": "branches-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches-styles.css",
+              "RelativeToolTip": "branches-styles.css",
+              "ViewState": "AgIAAOsBAAAAAAAAAAAuwBMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T11:20:47.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "branches.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches.html",
+              "RelativeDocumentMoniker": "branches.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches.html",
+              "RelativeToolTip": "branches.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:53:01.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "faq-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq-styles.css",
+              "RelativeDocumentMoniker": "faq-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq-styles.css",
+              "RelativeToolTip": "faq-styles.css",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAuwLcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T11:20:57.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login-styles.css",
+              "RelativeDocumentMoniker": "login-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login-styles.css",
+              "RelativeToolTip": "login-styles.css",
+              "ViewState": "AgIAAKEBAAAAAAAAAAAqwM8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T12:58:04.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "services-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services-styles.css",
+              "RelativeDocumentMoniker": "services-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services-styles.css",
+              "RelativeToolTip": "services-styles.css",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAuwDQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T11:21:10.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "signup-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup-styles.css",
+              "RelativeDocumentMoniker": "signup-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup-styles.css",
+              "RelativeToolTip": "signup-styles.css",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T10:48:04.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\styles.css",
+              "RelativeDocumentMoniker": "styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\styles.css",
+              "RelativeToolTip": "styles.css",
+              "ViewState": "AgIAAKMDAAAAAAAAAAAAAKMDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T10:22:28.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "branches.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches.js",
+              "RelativeDocumentMoniker": "branches.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\branches.js",
+              "RelativeToolTip": "branches.js",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwDcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:53:58.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "catalog-styles.css",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog-styles.css",
+              "RelativeDocumentMoniker": "catalog-styles.css",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog-styles.css",
+              "RelativeToolTip": "catalog-styles.css",
+              "ViewState": "AgIAAJcCAAAAAAAAAAAAALsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T11:20:52.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "about.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about.js",
+              "RelativeDocumentMoniker": "about.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about.js",
+              "RelativeToolTip": "about.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:51:24.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "signup.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup.js",
+              "RelativeDocumentMoniker": "signup.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup.js",
+              "RelativeToolTip": "signup.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:57:00.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "signup.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup.html",
+              "RelativeDocumentMoniker": "signup.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\signup.html",
+              "RelativeToolTip": "signup.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:49:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "scripts.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\scripts.js",
+              "RelativeDocumentMoniker": "scripts.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\scripts.js",
+              "RelativeToolTip": "scripts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:30:09.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services.html",
+              "RelativeDocumentMoniker": "services.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services.html",
+              "RelativeToolTip": "services.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:53:26.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-25T07:04:48.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login.html",
+              "RelativeDocumentMoniker": "login.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login.html",
+              "RelativeToolTip": "login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:48:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "faq.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq.html",
+              "RelativeDocumentMoniker": "faq.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq.html",
+              "RelativeToolTip": "faq.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:53:15.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "catalog.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog.html",
+              "RelativeDocumentMoniker": "catalog.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog.html",
+              "RelativeToolTip": "catalog.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:53:10.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:22:23.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "about.html",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about.html",
+              "RelativeDocumentMoniker": "about.html",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\about.html",
+              "RelativeToolTip": "about.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T10:52:26.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "faq.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq.js",
+              "RelativeDocumentMoniker": "faq.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\faq.js",
+              "RelativeToolTip": "faq.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwDoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:53:48.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "catalog.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog.js",
+              "RelativeDocumentMoniker": "catalog.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\catalog.js",
+              "RelativeToolTip": "catalog.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:53:52.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "services.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services.js",
+              "RelativeDocumentMoniker": "services.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\services.js",
+              "RelativeToolTip": "services.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwDoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:53:37.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login.js",
+              "RelativeDocumentMoniker": "login.js",
+              "ToolTip": "C:\\Users\\Varassi\\Documents\\Project\\QCULib\\login.js",
+              "RelativeToolTip": "login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-26T10:54:21.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
